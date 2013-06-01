@@ -11,9 +11,6 @@ export HUBOT_IRC_DEBUG="true"
 
 cd $APP/current
 npm install
-rm $APP/shared/logs/forever.log
-#forever stopall
-#forever start --pidFile $APP/shared/pids/lee-bot-perry.pid -l $APP/shared/logs/forever.log -o $APP/shared/logs/lee-bot-perry.log -e $APP/shared/logs/lee-bot-perry.err $APP/current/bin/hubot -a irc
-
-./bin/hubot -a irc &
+forever stopall
+forever start --pidFile $APP/shared/pids/lee-bot-perry.pid -o $APP/shared/logs/lee-bot-perry.log -e $APP/shared/logs/lee-bot-perry.err -c bash $APP/current/bin/hubot -a irc
 
