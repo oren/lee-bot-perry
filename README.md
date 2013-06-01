@@ -2,11 +2,16 @@
 
 This is a version of GitHub's Campfire bot, hubot. He's pretty cool.
 
+* [Deploy](#deploy)
+* [Testing Locally](#testing-locally)
+* [Scripts](#scripts)
+* [Misc](#misc)
+
 ## Deploy
 
     bin/deploy prod
 
-### Testing Locally
+## Testing Locally
 
 You can test your hubot by running the following.
 
@@ -45,7 +50,10 @@ repo.
 
 [hubot-scripts]: https://github.com/github/hubot-scripts
 
-## Redis
+
+## Misc 
+
+### Redis
 
 If you are going to use the `redis-brain.coffee` script from `hubot-scripts`
 you will need to add the Redis to Go addon on Heroku which requires a verified
@@ -60,7 +68,7 @@ about redis at all.
 
 [redistogo]: https://redistogo.com/
 
-## HTTP Listener
+### HTTP Listener
 
 Hubot has a HTTP listener which listens on the port specified by the `PORT`
 environment variable.
