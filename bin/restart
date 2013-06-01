@@ -1,5 +1,6 @@
 #!/bin/bash
 
+PATH=$PATH:/home/t/bin
 APP=/usr/local/nextgen/lee-bot-perry
 
 export HUBOT_IRC_SERVER="irc.flight.yellowpages.com"
