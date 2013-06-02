@@ -5,7 +5,9 @@ rules = [
   "2. Reduced risk of disease - mammals are very similar to humans and therefor transmit many diseases.",
   "3. Efficient feed conversion - almost 1 to 1 ratio of feed to protein conversion.",
   "4. Water savings - agriculture consumes 70% of water worldwide, and the production of animal protein requires 100 times more water than protein from grain.",
-  "5. Unlimited supply - there is more body mass of insects than mammals and it is possible to feed many more people."
+  "5. Unlimited supply - there is more body mass of insects than mammals and it is possible to feed many more people.",
+  "",
+  "Waxworm Tacos - http://www.girlmeetsbug.com/video"
   ]
 
 module.exports = (robot) ->
