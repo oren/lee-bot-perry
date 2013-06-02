@@ -61,6 +61,10 @@ module.exports = (robot) ->
       response += "#{task.key} -> #{task.task}\n"
     msg.send response
 
+  # robot.hear /([A-Z0-9?!@#$%^&*]+)/, (msg) ->
+  #   robotHeard = msg.match[1]
+  #   robot.receive new TextMessage(msg.message.user, "#{robot.name}: loud")
+
   robot.hear /(.+)/i, (msg) ->
     robotHeard = msg.match[1]
 
