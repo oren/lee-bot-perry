@@ -21,6 +21,6 @@ module.exports = (robot) ->
     .get() (err, res, body) ->
       response = JSON.parse body
       if response[index]
-       msg.send response[index]["text"]
+        msg.send response[index]["text"]
       else
-       msg.send "Error"
+        msg.send "Error"
