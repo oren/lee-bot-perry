@@ -1,5 +1,5 @@
 # Description:
-#   gets a tweet from loudbot
+#   gets a tweet from LOUDBOT
 #
 # Dependencies:
 #   None
@@ -8,14 +8,13 @@
 #   None
 #
 # Commands:
-#   hubot loud - randomize one of the recent 100 tweets
+#   ANYTHING CAPS - randomize one of the recent 100 tweets from LOUDBOT
 #
 # Author:
 #   Oren
 #
 module.exports = (robot) ->
-  robot.respond /loud/i, (msg) ->
-   console.log 'inside loud' 
+  robot.hear /(^[^a-z]*$)/, (msg) ->
    index = Math.floor(Math.random() * 99)
    msg.http("http://api.twitter.com/1/statuses/user_timeline/loudbot.json?count=100&include_rts=true")
     .get() (err, res, body) ->
