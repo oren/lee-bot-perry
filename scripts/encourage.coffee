@@ -32,8 +32,8 @@ remarks = [
 ]
 allinclusive = [
 	"Great job today, everyone!",
-	"Go team!",
-	"Super duper, gang!",
+	"Go team! I'll be happy to pay for the next IronMan movie!",
+	"Super duper, gang! I invite you all to Charles Billiard Sports Bar today at 4pm",
 	"If I could afford it, I would buy you all lunch!",
 	"What a great group of individuals there are in here. I'm proud to be chatting with you.",
 	"You all are capable of accomplishing whatever you set your mind to.",
