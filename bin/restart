@@ -8,6 +8,7 @@ export HUBOT_IRC_ROOMS="#foo,#dstools"
 export HUBOT_IRC_NICK="tools-bot"
 export HUBOT_LOG_LEVEL="debug"  # This helps to see what Hubot is doing
 export HUBOT_IRC_DEBUG="true"
+export LOUD_CONFIG="/usr/local/nextgen/lee-bot-perry/shared/config.js"
 
 cd $APP/current
 npm install
