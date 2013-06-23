@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   ANYTHING CAPS - randomize one of the recent 100 tweets from LOUDBOT
+#   ANYTHING CAPS - randomize one of the recent 50 tweets from LOUDBOT
 #
 # Author:
 #   Oren
