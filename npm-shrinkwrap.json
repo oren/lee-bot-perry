@@ -5,7 +5,6 @@
     "hubot": {
       "version": "2.5.5",
       "from": "hubot@2.5.5",
-      "resolved": "https://registry.npmjs.org/hubot/-/hubot-2.5.5.tgz",
       "dependencies": {
         "coffee-script": {
           "version": "1.6.2",
@@ -106,19 +105,16 @@
     "hubot-irc": {
       "version": "0.1.15",
       "from": "hubot-irc@0.1.15",
-      "resolved": "https://registry.npmjs.org/hubot-irc/-/hubot-irc-0.1.15.tgz",
       "dependencies": {
         "irc": {
           "version": "0.3.6",
-          "from": "irc@0.3.6",
-          "resolved": "https://registry.npmjs.org/irc/-/irc-0.3.6.tgz"
+          "from": "irc@0.3.6"
         }
       }
     },
     "hubot-scripts": {
       "version": "2.4.6",
       "from": "hubot-scripts@2.4.6",
-      "resolved": "https://registry.npmjs.org/hubot-scripts/-/hubot-scripts-2.4.6.tgz",
       "dependencies": {
         "redis": {
           "version": "0.8.2",
@@ -135,9 +131,9 @@
       "from": "cleverbot-node@0.1.1"
     },
     "loudbot": {
-      "version": "0.0.7",
-      "from": "loudbot@0.0.7",
-      "resolved": "https://registry.npmjs.org/loudbot/-/loudbot-0.0.7.tgz",
+      "version": "0.0.8",
+      "from": "loudbot@0.0.8",
+      "resolved": "https://registry.npmjs.org/loudbot/-/loudbot-0.0.8.tgz",
       "dependencies": {
         "twit": {
           "version": "1.1.6",
@@ -153,7 +149,8 @@
     },
     "ntwitter": {
       "version": "0.5.0",
-      "from": "ntwitter@",
+      "from": "ntwitter@0.5.0",
+      "resolved": "https://registry.npmjs.org/ntwitter/-/ntwitter-0.5.0.tgz",
       "dependencies": {
         "oauth": {
           "version": "0.9.10",
