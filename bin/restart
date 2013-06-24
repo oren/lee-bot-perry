@@ -4,7 +4,7 @@ PATH=$PATH:/home/t/bin
 APP=/usr/local/nextgen/lee-bot-perry
 
 export HUBOT_IRC_SERVER="irc.flight.yellowpages.com"
-export HUBOT_IRC_ROOMS="#foo,#dstools"
+export HUBOT_IRC_ROOMS="#foo,#dstools,#cyx"
 export HUBOT_IRC_NICK="tools-bot"
 export HUBOT_LOG_LEVEL="debug"  # This helps to see what Hubot is doing
 export HUBOT_IRC_DEBUG="true"
