@@ -22,3 +22,7 @@ module.exports = (robot) ->
         msg.send "Error"
       else
         msg.send tweet
+
+setInterval () ->
+  console.log 'hello', 5000
+
