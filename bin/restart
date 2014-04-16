@@ -1,17 +1,18 @@
 #!/bin/bash
 
-PATH=$PATH:/home/t/bin
-APP=/usr/local/nextgen/lee-bot-perry
+APP=/home/oren/projects/lee-bot-perry
 
 export HUBOT_IRC_SERVER="irc.flight.yellowpages.com"
-export HUBOT_IRC_ROOMS="#foo,#team-hk"
-export HUBOT_IRC_NICK="hk-bot"
+export HUBOT_IRC_ROOMS="#foo,#team-hk,#webypqa"
+export HUBOT_IRC_NICK="loudbot"
 export HUBOT_LOG_LEVEL="debug"  # This helps to see what Hubot is doing
 export HUBOT_IRC_DEBUG="true"
-export LOUD_CONFIG="/usr/local/nextgen/lee-bot-perry/shared/config.js"
+export LOUD_CONFIG="/home/oren/projects/config.js"
 
-cd $APP/current
+cd $APP
 npm install
-forever stopall
-forever start --pidFile $APP/shared/pids/lee-bot-perry.pid -o $APP/shared/logs/lee-bot-perry.log -e $APP/shared/logs/lee-bot-perry.err -c bash $APP/current/bin/hubot -a irc
+$APP/bin/hubot -a irc
+
+# forever stopall
+# forever start --pidFile $APP/lee-bot-perry.pid -o $APP/lee-bot-perry.log -e $APP/lee-bot-perry.err -c bash $APP/bin/hubot -a irc
 
